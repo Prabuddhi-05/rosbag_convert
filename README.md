@@ -51,7 +51,7 @@ You can adjust the following in the code as needed:
 - **`base_path`**: Path to the KITTI dataset
 - **`output_bag_path`**: Path where ROS 2 bag files will be saved
 - **`seq_id`**: Number of sequences to process (default is 29)
-- **Paths to detections**: Adjust the paths for 2D and 3D detection files in the code (Only if you are using the precomputed detections)
+- **`Paths to detections`**: Adjust the paths for 2D and 3D detection files in the code (Only if you are using the precomputed detections)
 
 ---
 
