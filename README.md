@@ -40,7 +40,7 @@ source install/setup.bash
 
 ```
 
-Clone the `my_msgs` package ([LINK HERE](https://github.com/Prabuddhi-05/my_msgs.git)) (only if using precomputed detections):
+Clone the `my_msgs` package ([LINK HERE](https://github.com/Prabuddhi-05/my_msgs.git)) (only if you are using precomputed detections):
 ```bash
 cd <your_ros2_workspace>/src
 git clone https://github.com/Prabuddhi-05/my_msgs.git
@@ -59,7 +59,7 @@ You can adjust the following in the code as needed:
 - **`base_path`**: Path to the KITTI dataset
 - **`output_bag_path`**: Path where ROS 2 bag files will be saved
 - **`seq_id`**: Number of sequences to process (default is 29)
-- **`Paths to detections`**: Adjust the paths for 2D and 3D detection files in the code (only if using precomputed detections)
+- **`Paths to detections`**: Adjust the paths for 2D and 3D detection files in the code (only if you are using precomputed detections)
 
 ---
 
