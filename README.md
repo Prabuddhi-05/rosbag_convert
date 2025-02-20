@@ -24,7 +24,7 @@ This repository converts KITTI tracking dataset sequences into ROS 2 bag files, 
     ```
 
 2. **Build the Custom Message:**
-    Make sure you have the `my_msgs` package with the custom message `Float32MultiArrayStamped`.
+    Make sure you have the `my_msgs` package with the custom message `Float32MultiArrayStamped` (Only if you are using the precomputed detections).
 
     ```bash
     cd <your_ros2_workspace>
