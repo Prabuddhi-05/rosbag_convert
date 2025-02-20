@@ -33,7 +33,7 @@ Install the following ROS 2 packages:
 Clone the `my_msgs` package ([LINK HERE](https://github.com/Prabuddhi-05/my_msgs.git)) (only if using precomputed detections):
 ```bash
 cd <your_ros2_workspace>/src
-git clone [https://github.com/Prabuddhi-05/my_msgs.git](https://github.com/Prabuddhi-05/my_msgs.git)
+git clone https://github.com/Prabuddhi-05/my_msgs.git
 colcon build --packages-select my_msgs
 ```
 
