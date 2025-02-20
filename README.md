@@ -30,13 +30,6 @@ Install the following ROS 2 packages:
 
 ## Clone the Repository
 
-Clone the `my_msgs` package ([LINK HERE](https://github.com/Prabuddhi-05/my_msgs.git)) (only if using precomputed detections):
-```bash
-cd <your_ros2_workspace>/src
-git clone https://github.com/Prabuddhi-05/my_msgs.git
-colcon build --packages-select my_msgs
-```
-
 This repository should be inside your ROS 2 workspace. Clone it using:
 
 ```bash
@@ -45,6 +38,13 @@ git clone https://github.com/Prabuddhi-05/rosbag_convert.git
 colcon build --packages-select rosbag_convert
 source install/setup.bash
 
+```
+
+Clone the `my_msgs` package ([LINK HERE](https://github.com/Prabuddhi-05/my_msgs.git)) (only if using precomputed detections):
+```bash
+cd <your_ros2_workspace>/src
+git clone https://github.com/Prabuddhi-05/my_msgs.git
+colcon build --packages-select my_msgs
 ```
 
 ## Usage
