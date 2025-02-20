@@ -27,7 +27,7 @@ This repository converts KITTI tracking dataset sequences into ROS 2 bag files, 
     Make sure you have the `my_msgs` package with the custom message `Float32MultiArrayStamped` (Only if you are using the precomputed detections).
 
     ```bash
-    cd <your_ros2_workspace>
+    cd <your_ros2_workspace>/src
     colcon build --packages-select my_msgs
     ```
 
@@ -37,6 +37,7 @@ This repository should be inside your ROS 2 workspace. Clone it using:
 ```bash
 cd <your_ros2_workspace>/src
 git clone https://github.com/Prabuddhi-05/rosbag_convert.git
+colcon build --packages-select rosbag_convert
 source install/setup.bash
 ```
 
