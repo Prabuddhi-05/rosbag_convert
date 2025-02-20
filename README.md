@@ -42,7 +42,9 @@ This repository should be inside your ROS 2 workspace. Clone it using:
 ```bash
 cd <your_ros2_workspace>/src
 git clone https://github.com/Prabuddhi-05/rosbag_convert.git
-cd rosbag_convert
+colcon build --packages-select rosbag_convert
+source install/setup.bash
+
 ```
 
 ## Usage
