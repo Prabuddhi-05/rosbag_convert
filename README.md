@@ -17,13 +17,13 @@ This repository converts KITTI tracking dataset sequences into ROS 2 bag files, 
 
 ## Installation and Setup
 
-1. **Install Required ROS 2 Packages:**
+1. **Install required ROS 2 packages:**
     ```bash
     sudo apt update
     sudo apt install ros-humble-rclpy ros-humble-rosbag2-py ros-humble-cv-bridge python3-opencv python3-numpy
     ```
 
-2. **Build the Custom Message:**
+2. **Build the custom message:**
     Make sure you have the `my_msgs` package with the custom message `Float32MultiArrayStamped` (Only if you are using the precomputed detections).
 
     ```bash
@@ -31,7 +31,7 @@ This repository converts KITTI tracking dataset sequences into ROS 2 bag files, 
     colcon build --packages-select my_msgs
     ```
 
-## Clone the Repository
+## Clone the repository
 
 This repository should be inside your ROS 2 workspace. Clone it using:
 ```bash
